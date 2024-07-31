@@ -1,1 +1,354 @@
+###Fastp data for every sample 
+
+#####################################
+## fastp file for Q1
+Read1 before filtering:
+total reads: 43873950
+total bases: 6581092500
+Q20 bases: 6417210934(97.5098%)
+Q30 bases: 6149335953(93.4394%)
+
+Read2 before filtering:
+total reads: 43873950
+total bases: 6581092500
+Q20 bases: 6416618378(97.5008%)
+Q30 bases: 6184817627(93.9786%)
+
+Read1 after filtering:
+total reads: 43050824
+total bases: 6433961705
+Q20 bases: 6303830473(97.9774%)
+Q30 bases: 6063172928(94.237%)
+
+Read2 after filtering:
+total reads: 43050824
+total bases: 6433961705
+Q20 bases: 6318041822(98.1983%)
+Q30 bases: 6120591269(95.1294%)
+
+Filtering result:
+reads passed filter: 86101648
+reads failed due to low quality: 1383122
+reads failed due to too many N: 146582
+reads failed due to too short: 116548
+reads with adapter trimmed: 1809322
+bases trimmed due to adapters: 60436002
+
+Duplication rate: 5.63358%
+Insert size peak (evaluated by paired-end reads): 266
+JSON report: fastp.json
+HTML report: /share/snailomics/biom_raw/biom_azoof/Q1_wgs.html
+
+fastp --in1 /share/snailomics/biom_raw/biom_azoof/Q1_1.fq.gz --in2 /share/snailomics/biom_raw/biom_azoof/Q1_2.fq.gz --out1 /share/snailomics/biom_raw/biom_azoof/Q1_1.trimmed.fq.gz --out2 /share/snailomics/biom_raw/biom_azoof/Q1_2.trimmed.fq.gz -l 50 -h /share/snailomics/biom_raw/biom_azoof/Q1_wgs.html 
+fastp v0.23.4, time used: 598 seconds
+
+####################################################
+## fastp file for Q2
+Read1 before filtering:
+total reads: 9499571
+total bases: 1424935650
+Q20 bases: 1342572269(94.2199%)
+Q30 bases: 1226905971(86.1026%)
+
+Read2 before filtering:
+total reads: 9499571
+total bases: 1424935650
+Q20 bases: 1347520998(94.5671%)
+Q30 bases: 1263044140(88.6387%)
+
+Read1 after filtering:
+total reads: 8708203
+total bases: 1281814164
+Q20 bases: 1245528702(97.1692%)
+Q30 bases: 1168113581(91.1297%)
+
+Read2 after filtering:
+total reads: 8708203
+total bases: 1281814164
+Q20 bases: 1251321958(97.6212%)
+Q30 bases: 1201300915(93.7188%)
+
+Filtering result:
+reads passed filter: 17416406
+reads failed due to low quality: 1416230
+reads failed due to too many N: 8152
+reads failed due to too short: 158354
+reads with adapter trimmed: 1242750
+bases trimmed due to adapters: 66528812
+
+Duplication rate: 39.7194%
+
+Insert size peak (evaluated by paired-end reads): 152
+
+JSON report: fastp.json
+HTML report: /share/snailomics/biom_raw/biom_azoof/Q2_wgs.html
+
+fastp --in1 /share/snailomics/biom_raw/biom_azoof/Q2_1.fq.gz --in2 /share/snailomics/biom_raw/biom_azoof/Q2_2.fq.gz --out1 /share/snailomics/biom_raw/biom_azoof/Q2_1.trimmed.fq.gz --out2 /share/snailomics/biom_raw/biom_azoof/Q2_2.trimmed.fq.gz -l 50 -h /share/snailomics/biom_raw/biom_azoof/Q2_wgs.html 
+fastp v0.23.4, time used: 101 seconds
+###############################
+## fastp file for Q3
+Read1 before filtering:
+total reads: 42837215
+total bases: 6425582250
+Q20 bases: 6257066464(97.3774%)
+Q30 bases: 5985672764(93.1538%)
+
+Read2 before filtering:
+total reads: 42837215
+total bases: 6425582250
+Q20 bases: 6256629386(97.3706%)
+Q30 bases: 6023585099(93.7438%)
+
+Read1 after filtering:
+total reads: 41973639
+total bases: 6267547559
+Q20 bases: 6135377004(97.8912%)
+Q30 bases: 5893085730(94.0254%)
+
+Read2 after filtering:
+total reads: 41973639
+total bases: 6267547559
+Q20 bases: 6150997840(98.1404%)
+Q30 bases: 5954670513(95.008%)
+
+Filtering result:
+reads passed filter: 83947278
+reads failed due to low quality: 1465366
+reads failed due to too many N: 142270
+reads failed due to too short: 119516
+reads with adapter trimmed: 2286830
+bases trimmed due to adapters: 70499972
+
+Duplication rate: 5.75382%
+
+Insert size peak (evaluated by paired-end reads): 231
+
+JSON report: fastp.json
+HTML report: /share/snailomics/biom_raw/biom_azoof/Q3_wgs.html
+
+fastp --in1 /share/snailomics/biom_raw/biom_azoof/Q3_1.fq.gz --in2 /share/snailomics/biom_raw/biom_azoof/Q3_2.fq.gz --out1 /share/snailomics/biom_raw/biom_azoof/Q3_1.trimmed.fq.gz --out2 /share/snailomics/biom_raw/biom_azoof/Q3_2.trimmed.fq.gz -l 50 -h /share/snailomics/biom_raw/biom_azoof/Q3_wgs.html 
+fastp v0.23.4, time used: 561 seconds
+
+##############################################
+## fastp file for Q4 
+Read1 before filtering:
+total reads: 48780282
+total bases: 7317042300
+Q20 bases: 7115684345(97.2481%)
+Q30 bases: 6789452964(92.7896%)
+
+Read2 before filtering:
+total reads: 48780282
+total bases: 7317042300
+Q20 bases: 7109288401(97.1607%)
+Q30 bases: 6815034673(93.1392%)
+
+Read1 after filtering:
+total reads: 47871087
+total bases: 7145628659
+Q20 bases: 6985296653(97.7562%)
+Q30 bases: 6691940717(93.6508%)
+
+Read2 after filtering:
+total reads: 47871087
+total bases: 7145628659
+Q20 bases: 6997172612(97.9224%)
+Q30 bases: 6745263743(94.3971%)
+
+Filtering result:
+reads passed filter: 95742174
+reads failed due to low quality: 1649976
+reads failed due to too many N: 234
+reads failed due to too short: 168180
+reads with adapter trimmed: 2560660
+bases trimmed due to adapters: 88974470
+
+Duplication rate: 6.57727%
+
+Insert size peak (evaluated by paired-end reads): 269
+
+JSON report: fastp.json
+HTML report: /share/snailomics/biom_raw/biom_azoof/Q4_wgs.html
+
+fastp --in1 /share/snailomics/biom_raw/biom_azoof/Q4_1.fq.gz --in2 /share/snailomics/biom_raw/biom_azoof/Q4_2.fq.gz --out1 /share/snailomics/biom_raw/biom_azoof/Q4_1.trimmed.fq.gz --out2 /share/snailomics/biom_raw/biom_azoof/Q4_2.trimmed.fq.gz -l 50 -h /share/snailomics/biom_raw/biom_azoof/Q4_wgs.html 
+fastp v0.23.4, time used: 679 seconds
+
+####################################################
+## fastp file for Q5
+Read1 before filtering:
+total reads: 20488990
+total bases: 3073348500
+Q20 bases: 3031855671(98.6499%)
+Q30 bases: 2930137515(95.3402%)
+
+Read2 before filtering:
+total reads: 20488990
+total bases: 3073348500
+Q20 bases: 3024169023(98.3998%)
+Q30 bases: 2936778137(95.5563%)
+
+Read1 after filtering:
+total reads: 20300360
+total bases: 3033702240
+Q20 bases: 2998598321(98.8429%)
+Q30 bases: 2902749867(95.6834%)
+
+Read2 after filtering:
+total reads: 20300360
+total bases: 3033702240
+Q20 bases: 2996974344(98.7893%)
+Q30 bases: 2918434523(96.2004%)
+
+Filtering result:
+reads passed filter: 40600720
+reads failed due to low quality: 275622
+reads failed due to too many N: 4184
+reads failed due to too short: 97454
+reads with adapter trimmed: 643570
+bases trimmed due to adapters: 33494598
+
+Duplication rate: 44.3526%
+
+Insert size peak (evaluated by paired-end reads): 269
+
+JSON report: fastp.json
+HTML report: /share/snailomics/biom_raw/biom_azoof/Q5_wgs.html
+
+fastp --in1 /share/snailomics/biom_raw/biom_azoof/Q5_1.fq.gz --in2 /share/snailomics/biom_raw/biom_azoof/Q5_2.fq.gz --out1 /share/snailomics/biom_raw/biom_azoof/Q5_1.trimmed.fq.gz --out2 /share/snailomics/biom_raw/biom_azoof/Q5_2.trimmed.fq.gz -l 50 -h /share/snailomics/biom_raw/biom_azoof/Q5_wgs.html 
+fastp v0.23.4, time used: 241 seconds
+
+################################################
+
+## fastp filr for Q6
+Read1 before filtering:
+total reads: 12826160
+total bases: 1923924000
+Q20 bases: 1899204169(98.7151%)
+Q30 bases: 1844976037(95.8965%)
+
+Read2 before filtering:
+total reads: 12826160
+total bases: 1923924000
+Q20 bases: 1894676099(98.4798%)
+Q30 bases: 1846225309(95.9614%)
+
+Read1 after filtering:
+total reads: 12712224
+total bases: 1901941596
+Q20 bases: 1880784089(98.8876%)
+Q30 bases: 1829459293(96.189%)
+
+Read2 after filtering:
+total reads: 12712224
+total bases: 1901941596
+Q20 bases: 1879239677(98.8064%)
+Q30 bases: 1835232689(96.4926%)
+
+Filtering result:
+reads passed filter: 25424448
+reads failed due to low quality: 200926
+reads failed due to too many N: 2170
+reads failed due to too short: 24776
+reads with adapter trimmed: 388518
+bases trimmed due to adapters: 12556104
+
+Duplication rate: 41.2051%
+
+Insert size peak (evaluated by paired-end reads): 268
+
+JSON report: fastp.json
+HTML report: /share/snailomics/biom_raw/biom_azoof/Q6_wgs.html
+
+fastp --in1 /share/snailomics/biom_raw/biom_azoof/Q6_1.fq.gz --in2 /share/snailomics/biom_raw/biom_azoof/Q6_2.fq.gz --out1 /share/snailomics/biom_raw/biom_azoof/Q6_1.trimmed.fq.gz --out2 /share/snailomics/biom_raw/biom_azoof/Q6_2.trimmed.fq.gz -l 50 -h /share/snailomics/biom_raw/biom_azoof/Q6_wgs.html 
+fastp v0.23.4, time used: 145 seconds
+
+##########################################
+ ## fastp file for Q7
+
+Read1 before filtering:
+total reads: 10266935
+total bases: 1540040250
+Q20 bases: 1518951940(98.6307%)
+Q30 bases: 1473395876(95.6726%)
+
+Read2 before filtering:
+total reads: 10266935
+total bases: 1540040250
+Q20 bases: 1514714350(98.3555%)
+Q30 bases: 1472917763(95.6415%)
+
+Read1 after filtering:
+total reads: 10165708
+total bases: 1520568450
+Q20 bases: 1502491593(98.8112%)
+Q30 bases: 1459431575(95.9793%)
+
+Read2 after filtering:
+total reads: 10165708
+total bases: 1520568450
+Q20 bases: 1501017381(98.7142%)
+Q30 bases: 1463142488(96.2234%)
+
+Filtering result:
+reads passed filter: 20331416
+reads failed due to low quality: 177282
+reads failed due to too many N: 1704
+reads failed due to too short: 23468
+reads with adapter trimmed: 316768
+bases trimmed due to adapters: 11205368
+
+Duplication rate: 46.4052%
+
+Insert size peak (evaluated by paired-end reads): 268
+
+JSON report: fastp.json
+HTML report: /share/snailomics/biom_raw/biom_azoof/Q7_wgs.html
+
+fastp --in1 /share/snailomics/biom_raw/biom_azoof/Q7_1.fq.gz --in2 /share/snailomics/biom_raw/biom_azoof/Q7_2.fq.gz --out1 /share/snailomics/biom_raw/biom_azoof/Q7_1.trimmed.fq.gz --out2 /share/snailomics/biom_raw/biom_azoof/Q7_2.trimmed.fq.gz -l 50 -h /share/snailomics/biom_raw/biom_azoof/Q7_wgs.html 
+fastp v0.23.4, time used: 117 seconds
+############################################################
+
+## Fastp file for Q8
+
+Read1 before filtering:
+total reads: 12238181
+total bases: 1835727150
+Q20 bases: 1811696349(98.6909%)
+Q30 bases: 1758790773(95.8089%)
+
+Read2 before filtering:
+total reads: 12238181
+total bases: 1835727150
+Q20 bases: 1807790390(98.4782%)
+Q30 bases: 1761080854(95.9337%)
+
+Read1 after filtering:
+total reads: 12127660
+total bases: 1812178785
+Q20 bases: 1791618473(98.8654%)
+Q30 bases: 1741600733(96.1053%)
+
+Read2 after filtering:
+total reads: 12127660
+total bases: 1812178785
+Q20 bases: 1790748136(98.8174%)
+Q30 bases: 1748525341(96.4875%)
+
+Filtering result:
+reads passed filter: 24255320
+reads failed due to low quality: 192426
+reads failed due to too many N: 1922
+reads failed due to too short: 26694
+reads with adapter trimmed: 550948
+bases trimmed due to adapters: 16930198
+
+Duplication rate: 41.4316%
+
+Insert size peak (evaluated by paired-end reads): 268
+
+JSON report: fastp.json
+HTML report: /share/snailomics/biom_raw/biom_azoof/Q8_wgs.html
+
+fastp --in1 /share/snailomics/biom_raw/biom_azoof/Q8_1.fq.gz --in2 /share/snailomics/biom_raw/biom_azoof/Q8_2.fq.gz --out1 /share/snailomics/biom_raw/biom_azoof/Q8_1.trimmed.fq.gz --out2 /share/snailomics/biom_raw/
+######################
 
